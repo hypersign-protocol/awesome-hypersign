@@ -30,7 +30,7 @@ jobs:
         run: node generate-index-json.js
 
       - name: Stage index file
-        run: git add did-hacks/index.json
+        run: git add hacks/index.json
 
       - name: Commit changes
         run: git commit -m "Adding JSON to Index file"
