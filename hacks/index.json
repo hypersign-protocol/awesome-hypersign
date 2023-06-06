@@ -43,5 +43,20 @@
       "Varsha",
       "Lovely"
     ]
+  },
+  {
+    "title": "ZK keyless Wallet",
+    "oneLineDescription": "Web3 Portfolio using DID",
+    "description": "Web3 Portfolio using DID, creating crosschain reputation.Web3 Portfolio using DID, creating crosschain reputation.Web3 Portfolio using DID, creating crosschain reputation.Web3 Portfolio using DID, creating crosschain reputation.Web3 Portfolio using DID, creating crosschain reputation.Web3 Portfolio using DID, creating crosschain reputation.",
+    "tags": [
+      "DID",
+      "VC"
+    ],
+    "img": "https://miro.medium.com/v2/resize:fit:1400/1*yxf5aQNPsJFi2Zdc8z779A.png",
+    "projectLink": "https://walletzk.app/",
+    "contributers": [
+      "Varsha",
+      "Lovely"
+    ]
   }
 ]
