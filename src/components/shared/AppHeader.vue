@@ -1,11 +1,9 @@
 <script>
-import ThemeSwitcher from '../ThemeSwitcher';
 import feather from 'feather-icons';
 import AppHeaderLinks from './AppHeaderLinks.vue';
 
 export default {
 	components: {
-		ThemeSwitcher,		
 		AppHeaderLinks,		
 	},
 	data() {
@@ -81,31 +79,11 @@ export default {
 				<!-- Header logos -->
 				<div>
 					<router-link to="/"
-						><img
-							v-if="theme === 'light'"
-							src="@/assets/images/hypersignSmallLogo.png"
-							class="w-36 logo"
-							alt="Dark Logo"
-							height="20px"
-							width="20px"
-						/>
-						<img
-							v-else
-							src="@/assets/images/hypersignSmallLogo.png"
-							class="w-36 logo"
-							alt="Light Logo"
-							height="30px"
-							width="30px"
-						/>
+						>
+						<img src="@/assets/images/hypersign_white_rect.png" class="logo" alt="Light Logo" />
+
 					</router-link>
 				</div>
-
-				<!-- Theme switcher small screen -->
-				<theme-switcher
-					:theme="theme"
-					@themeChanged="updateTheme"
-					class="block sm:hidden bg-ternary-light dark:bg-ternary-dark hover:bg-hover-light dark:hover:bg-hover-dark hover:shadow-sm px-2.5 py-2 rounded-lg"
-				/>
 
 				<!-- Small screen hamburger menu -->
 				<div class="sm:hidden">
@@ -118,7 +96,7 @@ export default {
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							viewBox="0 0 24 24"
-							class="h-7 w-7 fill-current text-secondary-dark dark:text-ternary-light"
+							class="h-7 w-7 fill-current text-secondary-light light:text-ternary-light"
 						>
 							<path
 								v-if="isOpen"
@@ -136,19 +114,11 @@ export default {
 				</div>
 			</div>
 
-			<!-- Header links -->
-			<AppHeaderLinks :showModal="showModal" :isOpen="isOpen" />
-
 			<!-- Header right section buttons -->
 			<div
-				class="hidden sm:flex justify-between items-center flex-col md:flex-row"
+				class="sm:flex justify-between items-center flex-col md:flex-row"
 			>
-				<!-- Theme switcher large screen -->
-				<theme-switcher
-					:theme="theme"
-					@themeChanged="updateTheme"
-					class="ml-8 bg-primary-light dark:bg-ternary-dark px-3 py-2 shadow-sm rounded-xl cursor-pointer"
-				/>
+				<AppHeaderLinks :showModal="showModal" :isOpen="isOpen" />
 			</div>
 		</div>		
 	</nav>
@@ -160,9 +130,13 @@ export default {
 	@apply dark:text-indigo-400;
 	@apply font-medium;
 }
+.logo {
+		width: 250px;
+		height: 70px;
+	}
 @media screen and (max-width: 768px) {
 	.logo {
-		width: 50px;
+		width: auto;
 		height: 50px;
 	}
 }
