@@ -3,7 +3,7 @@ import feather from 'feather-icons';
 import Button from "../reusable/Button.vue"
 export default {
 	name: 'Home',
-	components:{Button},
+	components: { Button },
 	data: () => {
 		return {
 			theme: '',
@@ -20,7 +20,7 @@ export default {
 		feather.replace();
 	},
 	methods: {
-		redirect(){
+		redirect() {
 			window.open('https://hypersign.id');
 		}
 	},
@@ -28,43 +28,25 @@ export default {
 </script>
 
 <template>
-	<section
-		class="flex flex-col sm:justify-between items-center sm:flex-row mt-12 sm:mt-10"
-	>
+	<section class="flex flex-col sm:justify-between items-center pt-12">
 		<!-- Banner left contents -->
-		<div class="w-full md:w-1/3 text-left">
-			<h1
-				class="font-general-semibold text-3xl md:text-3xl xl:text-4xl text-center sm:text-left text-ternary-dark dark:text-primary-light uppercase"
-			>
+		<div class="w-full md:w-1/1 text-center">
+			<h1 class="font-general-bold text-3xl md:text-4xl xl:text-7xl text-center sm:text-center text-ternary-light light:text-primary-light uppercase">
 				Awesome Hypersign
 			</h1>
-			<p
-				class="font-general-medium mt-2 text-lg sm:text-xl  xl:text-2xl text-center sm:text-left leading-none text-gray-400"
-			>
-				Build your Identity Product using Next Zen ID Infra
-			</p>
-			<div class="flex justify-center sm:block mt">
-				<Button											
-						title="Build Now"
-						class="text-md w-36 sm:w-48 mt-12 font-general-medium bg-indigo-500 hover:bg-indigo-600 text-white shadow-sm rounded-md px-5 py-2.5 duration-300"						
-						@click="redirect()"
-						aria-label="Build now Button"
-				/>				
+			<div class="md:w-1/1">
+				<p class="font-general-medium text-center mt-1 text-base sm:text-2xl xl:text-4xl text-center sm:text-center leading-none text-gray-400">
+					Build your Identity Products using Next Zen <br class="hidden sm:inline"> ID Infra and get featured here
+				</p>
 			</div>
-		</div>
-
-		<!-- Banner right illustration -->
-		<div class="w-full md:w-2/3 text-right float-right">
-			<img
-				v-if="theme === 'light'"
-				src="@/assets/images/developer.svg"
-				alt="Developer"
-			/>
-			<img
-				v-else
-				src="@/assets/images/developer-dark.svg"
-				alt="Developer"
-			/>
+			<div class="flex justify-center sm:block mt-4">
+				<Button
+					title="Submit Now"
+					class="text-base sm:text-lg lg:text-xl w-36 sm:w-48 font-general-medium bg-hypersign-theme hover:bg-white hover:text-gray-800 text-white shadow-sm rounded-md px-5 py-2.5 duration-300"
+					@click="redirect()"
+					aria-label="Build now Button"
+				/>
+			</div>
 		</div>
 	</section>
 </template>

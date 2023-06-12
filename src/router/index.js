@@ -23,7 +23,7 @@ const routes = [
 		},
 	},
 	{
-		path: '/hacks',
+		path: '/live-projects',
 		name: 'Projects',
 		// route level code-splitting
 		// this generates a separate chunk (projects.[hash].js) for this route

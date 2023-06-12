@@ -24,8 +24,8 @@ export default {
 		<!-- Load more projects button -->
 		<div class="mt-10 sm:mt-20 flex justify-center">
 			<router-link
-				to="/live-projects"
-				class="font-general-medium flex items-center px-6 py-3 rounded-lg shadow-lg hover:shadow-xl bg-indigo-500 hover:bg-indigo-600 focus:ring-1 focus:ring-indigo-900 text-white text-lg sm:text-xl duration-300"
+				to="/hacks"
+				class="text-base sm:text-lg lg:text-xl w-36 sm:w-48 font-general-medium bg-hypersign-theme hover:bg-white hover:text-gray-800 text-white shadow-sm rounded-md px-5 py-2.5 duration-300"
 				aria-label="More Projects"
 			>
 				<Button title="More Projects" />
