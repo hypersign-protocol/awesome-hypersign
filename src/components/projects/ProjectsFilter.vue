@@ -16,7 +16,9 @@ export default {
 				'NFT',
 				'GameID',
 				'Cross-Chain',
-				'Health',				
+				'Health',
+				'Defi',
+				'DNS'				
 			],
 		},
 	},

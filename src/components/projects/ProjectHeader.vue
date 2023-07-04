@@ -23,7 +23,7 @@ export default {
 				></i>
 				<span
 					class="font-general-medium ml-2 leading-none text-primary-dark dark:text-primary-light"
-					v-for="(user,index) in singleProjectHeader.contributers"
+					v-for="(user,index) in singleProjectHeader.contributors"
 					:key="index"
 					> {{ index > 0 ? ', ' : '' }}{{ user }}</span
 				>
