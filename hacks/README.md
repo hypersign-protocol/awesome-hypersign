@@ -1,24 +1,55 @@
-# **Resources for hack:DID**
+## How to give Pull Request
 
-- What is SSI ?
-  - Digital Identity [link](https://labs.hypersign.id/posts/ssi-intro/)
-  - What is SSI [link](https://labs.hypersign.id/posts/ssi-detail/)
-  - A short video on SSI [link](https://youtu.be/kJAapPG_jBY)
-  - [Document](https://www.dock.io/post/self-sovereign-identity) on SSI
-  - [Podcast](https://youtu.be/Lkv_Q6Kb6r8) on SSI by vishwas
-  - SSI by [Wiki](https://en.wikipedia.org/wiki/Self-sovereign_identity)
+- Fork (awesome-hypersign)[https://github.com/hypersign-protocol/awesome-hypersign] repository
+- Change directory to `/hack` folder
+- Create a new `<your-unique-project-name>.json` file
+- Finally give Pull Request to (awesome-hypersign)[https://github.com/hypersign-protocol/awesome-hypersign]  repository. 
 
-- Components of SSI
-  - Decentralized Identifier(DID) - short [video](https://youtu.be/Ew-_F-OtDFI) and [Doc](https://www.okta.com/blog/2021/01/what-is-decentralized-identity/)
-  - Verifiable Credentials - [video](https://youtu.be/6H099_hTRc4)1, [video2](https://youtu.be/DDkhnK202z4) and [Doc](https://www.dock.io/post/verifiable-credentials)
-  - Verifiable Schema [link](https://docs.hypersign.id/concepts/schema)
-  - Verifiable Presentation [link](https://docs.hypersign.id/concepts/verifiable-credential-vc)
+## Content in `<your-unique-project-name>.json` file
 
-- How to use Hypersign tools to explore SSI an
-  - Hypersign Entity Studio [link](https://entity.hypersign.id/#/studio/login)
+```json
+{
+    "title": "<Enter title of your project>"",
+    "oneLineDescription": "<Enter a short description of your project>",
+    "description": "<Enter a long description of your project>",
+    "tags": [
+      "<Enter releated tags in quotes separated by comma>"
+    ],
+    "img": "<Provide a banner link for your project>",
+    "projectLink": "<Your Github URL>",
+    "contributors": [
+      "<Enter list of contributor's github accounts>""
+    ]
+}```
 
-- One Stop tool to understand and play around SSI.
-- Understand how to create DID, issue Verifiable credentials, and verify.
+Example `<your-unique-project-name>.json`
 
-  - Hypersign Entity SDK support [here](https://docs.hypersign.id/developers/hid-ssi-sdk)
-  - Hypersign Entity API support [here](https://docs.hypersign.id/entity-studio/api-doc)
+```json
+{
+    "title": "DODO Wallet",
+    "oneLineDescription": "Web3 Portfolio using DID",
+    "description": "Web3 Portfolio using DID, creating crosschain reputation.Web3 Portfolio using DID, creating crosschain reputation.Web3 Portfolio using DID, creating crosschain reputation.Web3 Portfolio using DID, creating crosschain reputation.",
+    "tags": [
+        "DID", "Web3-Portfolio", "Crosschain"
+    ],
+    "img": "https://miro.medium.com/v2/resize:fit:1400/1*yxf5aQNPsJFi2Zdc8z779A.png",
+    "projectLink": "https://walletzk.app/",
+    "contributors": [
+        "Lovely",
+        "Pratap",
+        "Raj",
+        "varsha"        
+    ]
+}
+```
+
+Notes:
+- Make sure to have a unique filename ending with `.json` extension. 
+- Make sure to give relevant tags
+- Provide Github usernames in the list of contributors
+
+
+
+
+
+
