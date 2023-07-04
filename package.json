@@ -6,6 +6,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
+    "render":"node generate-index-json.js",
     "deploy": "vue-cli-service build && gh-pages -d dist"
   },
   "dependencies": {
