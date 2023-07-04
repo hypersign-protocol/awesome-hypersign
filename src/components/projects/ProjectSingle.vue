@@ -14,8 +14,7 @@ export default {
       const project = this.project;
       window.open(`${project.projectLink}`, "_blank");
     },
-    redirectToGithubProfile(handle){
-      console.log(handle)
+    redirectToGithubProfile(handle){      
       window.open(`https://github.com/${handle}`,"_blank")
     }
   },
