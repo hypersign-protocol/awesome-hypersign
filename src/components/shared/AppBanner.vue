@@ -41,7 +41,7 @@ export default {
 			</div>
 			<div class="flex justify-center sm:block mt-4">
 				<Button
-					title="Submit Now"
+					title="Build Now"
 					class="text-base sm:text-lg lg:text-xl w-36 sm:w-48 font-general-medium bg-hypersign-theme hover:bg-white hover:text-gray-800 text-white shadow-sm rounded-md px-5 py-2.5 duration-300"
 					@click="redirect()"
 					aria-label="Build now Button"

@@ -19,7 +19,7 @@ export default {
 </script>
 
 <template>
-  <div
+  <div id = "project" 
     @click="redirectToSingleProject()"
     class="rounded-xl shadow-lg hover:shadow-4xl cursor-pointer mb-10 sm:mb-0 bg-secondary-dark dark:bg-ternary-dark flex flex-col justify-between"
     aria-label="Single Project"
@@ -39,7 +39,7 @@ export default {
       <span class="font-general-medium text-sm text-ternary-light light:text-ternary-light">{{ project.oneLineDescription }}</span>
     </div>
     <div class="flex items-center justify-center py-2">
-      <div class="flex items-center gap-3">
+      <div class="flex-inline items-center gap-3">
   <a
     v-for="(tag, index) in project.tags"
     :key="index"
@@ -50,7 +50,7 @@ export default {
       data-feather="tag"
       class="w-4 h-4 text-ternary-light light:text-ternary-light"
     ></i>
-    <span class="ml-1 text-ternary-light">{{ tag }}</span>
+    <span class="ml-1 text-ternary-light" style="font-size: xx-small;" >{{ tag }}</span>
   </a>
 </div>
    

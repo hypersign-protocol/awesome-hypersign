@@ -27,7 +27,7 @@ jobs:
           git config --global user.email "raj.v.patil108@gmail.com"
 
       - name: Run Generate Index JSON
-        run: node generate-index-json.js
+        run: npm run render
 
       - name: Stage index file
         run: git add hacks/index.json

@@ -22,3 +22,15 @@
 
   - Hypersign Entity SDK support [here](https://docs.hypersign.id/developers/hid-ssi-sdk)
   - Hypersign Entity API support [here](https://docs.hypersign.id/entity-studio/api-doc)
+
+
+
+
+
+
+    
+
+
+
+
+
