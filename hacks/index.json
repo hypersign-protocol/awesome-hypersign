@@ -21,6 +21,23 @@
     ]
   },
   {
+    "title": "Reputation Odyssey",
+    "oneLineDescription": "The Ultimate Game Reputation Backpack for Players",
+    "description": "Using DID and Verifiable Credential Game Players can carry their game reputaion anywhere.",
+    "tags": [
+      "DID",
+      "VC",
+      "GameID",
+      "Reputation",
+      "Vault"
+    ],
+    "img": "https://user-images.githubusercontent.com/67961128/259314017-ed82adce-19b4-491e-82b5-98f42197cc55.png",
+    "projectLink": "https://github.com/Raj6939/Reputation-Odyssey",
+    "contributors": [
+      "Raj6939"
+    ]
+  },
+  {
     "title": "BeePoll",
     "oneLineDescription": "Anti-Sybil Mechanism Voting System",
     "description": "Create WebAuthn DID, provide privacy and web2-like decentralize voting system.",
