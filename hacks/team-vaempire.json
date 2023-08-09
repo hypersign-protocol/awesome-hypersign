@@ -1,0 +1,13 @@
+ {
+ "title": "DODO : Redesigned",
+ "oneLineDescription": "Redesigned the UI of Dodo Hypersign",
+ "description": "We tried to give dodo a modern look just like other web3 projects or better than that, the main idea behind this is that UI is something which attracts a lot of people and UX makes it easy to onboard new people, so we tried to achieve both with this design.",
+ "tags": [
+   "UI/UX, Figma, Hypersign, DID,SSI, Hackathon"
+ ],
+ "img": "https://user-images.githubusercontent.com/139626898/259454526-99830c76-4740-4c01-ac3d-59e36c848ae2.png",
+ "projectLink": "https://github.com/raebeatrose4/dodo-redesigned",
+ "contributors": [
+   "raebeatrose4","nighteye3"
+   ]
+ }
