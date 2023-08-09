@@ -1,0 +1,15 @@
+{
+    "title": "BeePoll",
+    "oneLineDescription": "Anti-Sybil Mechanism Voting System",
+    "description": "Create WebAuthn DID, provide privacy and web2-like decentralize voting system.",
+    "tags": [
+        "DID", "DAO", "Crosschain", "WebAuthn", "Credential", "Vote", "ZK", "Zero-Knowledge"
+    ],
+    "img": "https://raw.githubusercontent.com/EricLin0619/BeePoll/main/public/bee.png",
+    "projectLink": "https://github.com/EricLin0619/BeePoll",
+    "contributors": [
+        "musicat1020",
+        "EricLin0619",
+        "kidneyweakx"      
+        ]
+    }
