@@ -38,6 +38,18 @@
     ]
   },
   {
+    "title": "AgeCredentials",
+    "oneLineDescription": "Age credential issuing service",
+    "description": "A simple service which take user did  to issue age credentials for validating the voting service",
+    "tags": [
+      "Hypersign,DID,SSI"
+    ],
+    "projectLink": "https://github.com/Hares27/AgeCredentialService",
+    "contributors": [
+      "Hares27"
+    ]
+  },
+  {
     "title": "BeePoll",
     "oneLineDescription": "Anti-Sybil Mechanism Voting System",
     "description": "Create WebAuthn DID, provide privacy and web2-like decentralize voting system.",
