@@ -101,24 +101,5 @@
       "raebeatrose4",
       "nighteye3"
     ]
-  },
-  {
-    "title": "Zero-Knowledge KYC",
-    "oneLineDescription": "Elevating trust with Chainlink Functions and Hypersign ID DID for unmatched privacy and security.",
-    "description": "Zero Knowledge KYC using Hypersign ID DID and Chainlink Functions",
-    "tags": [
-      "DID",
-      "VC",
-      "ZKP",
-      "KYC",
-      "Chainlink Functions",
-      "Hypersign ID DID",
-      "Cross-chain"
-    ],
-    "img": "https://private-user-images.githubusercontent.com/67961128/285860961-ffb57594-462b-4f9e-bcba-8a3bca02c704.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTEiLCJleHAiOjE3MDEwODgyMjMsIm5iZiI6MTcwMTA4NzkyMywicGF0aCI6Ii82Nzk2MTEyOC8yODU4NjA5NjEtZmZiNTc1OTQtNDYyYi00ZjllLWJjYmEtOGEzYmNhMDJjNzA0LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFJV05KWUFYNENTVkVINTNBJTJGMjAyMzExMjclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjMxMTI3VDEyMjUyM1omWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWZmMmJkMmY3NThlYTczZjcwYzdkMzFmZmI1NDc3NDZjOTcxOTcwOWU4MDJiMTY3NjdiOTg4N2I1MzI1ZmQxNTcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.hhNt99CA54j4zeDzs5qrkpv2WomFGvGYcqHO63A5lrY",
-    "projectLink": "https://gist.github.com/Raj6939/f7feca5aaa34fc63a0d388f44f481dee",
-    "contributors": [
-      "Raj6939"
-    ]
   }
 ]
